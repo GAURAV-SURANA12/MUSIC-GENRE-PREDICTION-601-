@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Genre Classification</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Genre Classification</h1>
+        <form id="prediction-form" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="audio-file">Upload an audio file:</label>
+                <input type="file" id="audio-file" accept=".wav">
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <br>
+        <br>
+        {{prediction_text}}
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
