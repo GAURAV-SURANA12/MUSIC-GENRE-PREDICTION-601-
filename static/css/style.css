@@ -1,0 +1,70 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+    border-color: #999;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#prediction-result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
